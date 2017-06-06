@@ -2,7 +2,7 @@
     'name': 'GI Sales',
     'category': 'Sales',
     'version': '0.1',
-    'depends': ['base','account','sale','branches'],
+    'depends': ['base','account','sale','branches','delivery'],
     'data': [
 	'sales_report.xml',
 	#'report_movimientos_caja.xml',
