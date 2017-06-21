@@ -35,12 +35,12 @@
 									<strong>Fecha </strong><span t-field="o.date_order" t-field-options='{"format": "dd-MM-yyyy"}'/>
 								</div>
 							</div>
-							<div class="row">
+							<div class="row" style="font-size:23px">
 								<div class="col col-xs-12">
 									<strong>Transporte </strong><span t-field="o.carrier_id.name" />
 								</div>
 							</div>
-							<div class="row">
+							<div class="row" style="font-size:23px">
 								<div class="col col-xs-12">
 									<strong>Cliente </strong><span t-field="o.partner_id.name" />
 								</div>
@@ -103,12 +103,12 @@
 									<strong>Fecha </strong><span t-field="o.date_order" t-field-options='{"format": "dd-MM-yyyy"}'/>
 								</div>
 							</div>
-							<div class="row">
+							<div class="row" style="font-size:23px">
 								<div class="col col-xs-12">
 									<strong>Transporte </strong><span t-field="o.carrier_id.name" />
 								</div>
 							</div>
-							<div class="row">
+							<div class="row" style="font-size:23px">
 								<div class="col col-xs-12">
 									<strong>Cliente </strong><span t-field="o.partner_id.name" />
 								</div>
@@ -139,15 +139,11 @@
 								</div>
 							</div>
 							<!-- Bloque 3 -->
-					                <div class="row">
+					                <!-- div class="row">
 						                <div class="col-xs-12">
 						                    <table class="table table-condensed">
 						                        <tr class="border-black">
 										<td>TALÓN PARA RENDIR LAS GUÍAS ENTREGADAS</td>
-										<!-- td>
-											<img class="img img-responsive center-block" 
-											t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('Code128', o.name, 300, 30)" />
-										</td -->
 									</tr>
 								    </table>
 								</div>
@@ -214,8 +210,8 @@
 										t-field-options='{"widget": "monetary", "display_currency": "o.currency_id"}'/>
 								  </div>
 								</div>
-							</div>
-						</div> <!-- page -->
+							</div -->
+						</div> 
 					</t>
 				</t>
 			</t>
